@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.8127626050420168) 0%, rgba(0,212,255,1) 100%);}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  color: rgb(251, 192, 73);
+}
+
+h1, h2 {
+  font-family: 'Orbitron', sans-serif;
 }
